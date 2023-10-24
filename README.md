@@ -9,11 +9,13 @@ This is a draft of a checklist for locally developed apps.
 - [ ] CONTRIBUTING.md
 - [ ] Has a `docs/` folder or similar
   - [ ] Documentation should include something about roles and persmissions
+- [ ] `.gitignore` should be present
 
 ## Stack & Testing
 - [ ] Note the tools needs in some dependencies file (`Gemfile`, `package.json`, `requirements.txt`, etc)
 - [ ] There should be automated test cases
 - [ ] The tool needs to have an awareness of different environments, e.g. `development`, `test`, `staging`, `production`.
+  - [ ] This should be controlled by a default variable for the language/stack like `NODE_ENV`, `RAILS_ENV`, etc.
 - [ ] The app should have a `.github/` folder with a CI script
   - [ ] Should be able to run unit tests
   - [ ] Shuld run full integration tests
@@ -21,7 +23,8 @@ This is a draft of a checklist for locally developed apps.
 - [ ] Tests should be able to run with an internet connection
 - [ ] Scripts should go in a local `bin/` directory, e.g. `bin/setup`, etc.
 - [ ] Local environments should require minimal secrets to boot the app
-- [ ]
+- [ ] Complicated installations should maybe have a `Dockerfile`
+- [ ] Consider a local `.vscode/` configuration
 
 ## Audting and Tools
 - [ ] CI should run through GitHub Actions
