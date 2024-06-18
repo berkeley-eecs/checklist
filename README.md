@@ -3,8 +3,8 @@
 This is a draft of a checklist for locally developed apps.
 
 ## Documentation / Notes
-- [ ] Has a `README.md`
-- [ ] Has a LICESE
+- [ ] Has a `README.md`: [Make a README](https://www.makeareadme.com/)
+- [ ] Has a LICENSE: [Choose a license](https://choosealicense.com/)
 - [ ] CHANGELOG.md
 - [ ] CONTRIBUTING.md
 - [ ] Has a `docs/` folder or similar
